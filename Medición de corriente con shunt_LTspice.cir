@@ -1,0 +1,7 @@
+* Medición de corriente con shunt 0.01 ohm
+
+Iload n 0 PULSE(0 5 0 1m 1m 0.8 1.6)   ; 0 a 5 A
+Rshunt n 0 0.01
+
+.tran 0 2 0 0.1m
+.end

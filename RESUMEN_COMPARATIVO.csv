@@ -1,0 +1,5 @@
+Escenario,SOH Promedio (%),SOH Mínimo (%),Módulos Sanos,Módulos Sospechosos,Módulos Degradados,Diagnóstico
+Escenario 1 - Batería Sana,89.5,89.5,14,0,0,BATERÍA EN BUEN ESTADO
+Escenario 2 - Un Módulo Degradado,86.8,51.7,13,0,1,BATERÍA ACEPTABLE - Revisar módulos sospechosos
+Escenario 3 - Degradación Distribuida,76.0,59.6,10,2,2,BATERÍA ACEPTABLE - Revisar módulos sospechosos
+Escenario 4 - Batería Muy Degradada,38.4,35.3,0,0,14,BATERÍA MUY DEGRADADA - Recomendable reemplazo

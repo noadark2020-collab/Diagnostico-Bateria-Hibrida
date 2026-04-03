@@ -1,0 +1,13 @@
+* Medición de voltaje módulo NiMH -> ADC (divisor + filtro)
+
+Vin in 0 PULSE(7.2 9 0 1m 1m 0.8 1.6)  ; simula voltaje que cambia entre 7.2V y 9V
+Rtop in vout 100k
+Rbot vout 0 56k
+Cfilt vout 0 100n
+
+* Ruido simulado (pequeña interferencia)
+Vnoise n 0 SINE(0 0.05 2000)          ; 50mV @ 2kHz
+Rnoise n vout 1k
+
+.tran 0 2 0 0.1m
+.end
